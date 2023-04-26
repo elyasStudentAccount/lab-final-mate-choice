@@ -32,7 +32,7 @@ export default function Home() {
         className="df aic jcc main_quiz">
           {startQuiz === false &&
             <div className="hero">
-              <h1>want to see how likely you are to NOT have unplanned kids?</h1>
+              <h1>want to see how likely you are to have unplanned kids?</h1>
             <button
               onClick={() => { 
                 setStartQuiz(true);
