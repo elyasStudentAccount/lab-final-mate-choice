@@ -144,13 +144,13 @@ export default function Home() {
               <div className="df aic jcsb">
                 <button onClick={() => {
                   setScore(score + 1)
-                  setQuestion5(false);
+                  setQuestion6(false);
                   setResult(true);
                   calculate();
                 }}>no</button>
                 <button onClick={() => {
                   setScore(score - 1)
-                  setQuestion5(false);
+                  setQuestion6(false);
                   setResult(true);
                   calculate();
                 }}>yes</button>
